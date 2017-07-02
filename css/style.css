@@ -26,6 +26,7 @@ a.btn-blue:hover, btn-blue:hover {
     color: aqua;
 }
 
+
 /*menu styles*/
 
 #main-nav {
@@ -50,6 +51,10 @@ a.btn-blue:hover, btn-blue:hover {
     color: #777;
 }
 
+#main-nav.active {
+    background-color: aqua;
+    opacity: 0.5;
+}
 
 /*main header styles*/
 
@@ -82,4 +87,75 @@ header div.header-caption h2 {
     color: #fff;
     font-family: 'Droid Serif', sans-serif;
     font-size: 2.5em;
+}
+
+
+/*services styles*/
+
+section#services {
+    margin-top: 20vh;
+    position: relative;
+}
+
+section#services div.container div.row {
+    margin: 50px;
+}
+
+section#services div.container div.rowTwo i {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border: solid 1px #fff;;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    transition: 1s;
+    font-size: 40px;
+}
+
+section#services div.container div.rowTwo i:hover {
+    background-color: #fff;
+    color: aqua;
+    border: solid 1px aqua;
+    transform: rotate(360deg);
+}
+
+section#services div.container div.row h2 {
+    color: #000;
+    font-size: 3em;
+}
+
+section#services div.container div.rowTwo h2 {
+    font-size: 18px;
+    color: #000;
+}
+
+
+/*portfolio styles*/
+
+section#portfolio {
+    background-color: darkgray;
+    text-align: center;
+    margin-top: 200px;
+}
+
+section#portfolio div.container div.row {
+    padding-top: 100px;
+}
+
+section#portfolio div.container div.row div.col-lg-4 div.text h2 {
+    color: #000;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+section#portfolio div.container div.rowTwo div.col-lg-4 img {
+    height: 300px;
+    width: 300px;
+}
+
+section#portfolio div.container div.rowTwo div.col-lg-4 div.text {
+    background-color: #fff;
 }
