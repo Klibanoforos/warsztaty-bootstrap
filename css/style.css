@@ -16,7 +16,6 @@ btn-blue {
     color: #fff;
     border: 1px solid aqua;
     transition: all .3s;
-    font-family: 'Montserrat', sans-serif;
     padding: 15px 30px;
     text-transform: uppercase;
 }
@@ -32,6 +31,16 @@ section {
     padding-top: 60px;
 }
 
+a, h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    }
+
+p {
+    font-style: italic;
+    font-family: 'Droid Serif', sans-serif;
+    color: #777777;
+}
 
 /*menu styles*/
 
@@ -44,12 +53,10 @@ section {
 #main-nav div div ul li a {
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #main-nav div div a.navbar-brand {
     font-size: 2em;
-    font-family: 'Droid Serif', sans-serif;
     text-transform: none;
     color: #fff;
 }
@@ -92,7 +99,6 @@ header div.header-caption h1 {
 
 header div.header-caption h2 {
     color: #fff;
-    font-family: 'Droid Serif', sans-serif;
     font-size: 2.5em;
 }
 
@@ -109,13 +115,11 @@ section#services div.container div.row {
 }
 
 section#services div.container div.row h2 {
-    color: #000;
     font-size: 3em;
 }
 
 section#services div.container div.row p.opis {
     font-style: italic;
-    font-family: 'Droid Serif', sans-serif;
 }
     
 section#services div.container div.row i {
@@ -140,7 +144,6 @@ section#services div.container div.row i:hover {
 }
 
 section#services div.container div.row div.col-lg-4 h3 {
-    color: #000;
     font-size: 20px;
 }
 
@@ -148,7 +151,7 @@ section#services div.container div.row div.col-lg-4 h3 {
 /*portfolio styles*/
 
 section#portfolio {
-    background-color: darkgray;
+    background-color: #f7f7f7;
     padding-bottom: 100px;
 }
 
@@ -157,15 +160,12 @@ section#portfolio div.container div.row {
 }
 
 section#portfolio div.container div.row h2 {
-    color: #000;
     font-size: 3em;
     padding: 20px;
 }
 
 section#portfolio div.container div.row p {
-    font-size: 20px; 
-    font-style: italic;
-    font-family: 'Droid Serif', sans-serif;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 
@@ -251,5 +251,51 @@ section#portfolio div.container div.row div.col-lg-4 div.img div.tuo:hover {
 
 section#portfolio div.container div.row div.col-lg-4 div.img div.tuo div:hover {
     opacity: 1;
+    cursor: pointer;
+}
+
+
+/*team styles*/
+
+section#team {
+    text-align: center;
+}
+
+section#team div.container div.row div.text {
+    padding: 40px;
+}
+
+section#team div.container div.row div.text p {
+    font-style: italic;
+    }
+
+section#team div.container div.row div.col-lg-4 {
+    padding-bottom: 20px;
+}
+
+section#team div.container div.row div.col-lg-4 img {
+    height: 200px;
+    width: 200px;
+}
+
+section#team div.container div.row div.col-lg-4 div.icons div {
+    font-size: 25px;
+    background-color: #222222;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+section#team div.container div.row div.col-lg-4 div.icons div a {
+    color: #fff;
+    }
+
+section#team div.container div.row div.col-lg-4 div.icons div:hover {
+    background-color: aqua;
+    color: #fff;
     cursor: pointer;
 }
